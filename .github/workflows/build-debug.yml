@@ -2,9 +2,9 @@ name: Build Debug APK
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "2.3" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "2.3" ]
 
 jobs:
   build:
